@@ -1,0 +1,3 @@
+C:\Users\Yannik\Desktop\NVS_OBG_Chat\App\WebApp\WebApp\obj\Debug\WebApp.njsprojAssemblyReference.cache
+C:\Users\Yannik\Desktop\NVS_OBG_Chat\App\WebApp\WebApp\obj\Debug\WebApp.njsproj.CoreCompileInputs.cache
+C:\Users\Yannik\Desktop\NVS_OBG_Chat\App\WebApp\WebApp\bin\Microsoft.NodejsTools.WebRole.dll

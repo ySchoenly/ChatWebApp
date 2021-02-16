@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-areas: "Header Header" "Menue Content" "Footer Footer";
+    grid-template-columns: 3fr 10fr;
+    text-decoration: none;
+    font-family: Agency FB, sans-serif;
+    color: rgb(209, 237, 225);
+}
+
+p {
+    color: rgb(209, 237, 225);
+}
+
+.Heading {
+    display:grid;
+    grid-area: Header;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(0, 62, 25);
+    width: 100%;
+    height: 10%;
+}
+
+.Content {
+    display: grid;
+    grid-area: Content;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 80%;
+    height: 85%;
+}
+
+.Footer {
+    display: grid;
+    grid-area: Footer;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(0, 62, 25);
+    width: 100%;
+    height: 5%;
+}
+ul.Menu {
+    top: 10%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: rgb(2, 140, 106);
+    position: fixed;
+    min-height: 85%;
+    overflow: auto;
+}
+li.liMenue button {
+    display: block;
+    color: rgb(209, 237, 225);
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: rgb(2, 140, 106);
+    width: 100%;
+    border: 0px;
+}
+
+    li.liMenue button.active {
+        background-color: rgb(2, 140, 106);
+        color: rgb(209, 237, 225);
+    }
+
+    li.liMenue button:hover:not(.active) {
+        background-color: rgb(0, 62, 25);
+        color: rgb(209, 237, 225);
+    }
+
+ul.chatMessages {
+    list-style-type: none;
+    width:80%;
+    height:100%;
+    overflow:auto;
+}
+
+li.chatMessagReciver {
+    text-align: left;
+}
+
+li.chatMessagSender{
+    text-align:right;
+}
+
+#divHeadingHeader {
+    text-align: center;
+    font-size: 65px;
+}
+
+#divReadMe {
+    text-align: center;
+    width:100%;
+    height:100%;
+}
+
+#divAddChat {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#divAddChat h1{
+    font-size: 30px;
+}
+
+.ChatHeader {
+    
+}
+
+#imageProfilePicChat {
+    text-align: left;
+    width :60px;
+    height:60px;
+}
+
+#divChatName {
+    text-align: center;
+    display:inline;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.inputAddChat {
+    height: 25px;
+}
+
+.bttnAddChat {
+    height: 25px;
+}
+
+@media screen and (max-width: 930px) {
+    body {
+        grid-template-areas: "Menu Header" "Menu Content" "Footer Footer";
+        grid-template-columns: 3fr 9fr;
+    }
+
+    
+}
+
+@media screen and (max-width: 680px) {
+    body {
+        grid-template-areas: "Header Header" "Menu Menu" "Content Content" "Footer Footer";
+    }
+
+    
+}

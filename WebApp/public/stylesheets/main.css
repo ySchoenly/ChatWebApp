@@ -1,0 +1,249 @@
+html, body {
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: Agency FB, sans-serif;
+    color: rgb(209, 237, 225);
+    height:100%;
+    max-height:100%;
+    background-color:black;
+}
+
+p {
+    color: rgb(209, 237, 225);
+}
+
+.Heading {
+    background-color: rgb(0, 62, 25);
+}
+
+.Content {
+   width:100%;
+}
+
+.Footer {
+    background-color: rgb(0, 62, 25);
+    height:60px;
+}
+ul.Menu {
+    width: 10%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 140, 106);
+    overflow: auto;
+}
+li.liMenue button {
+    width: 100%;
+    color: rgb(209, 237, 225);
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: rgb(2, 140, 106);
+    border: 0px;
+}
+
+li.liMenue button.active {
+    background-color: rgb(2, 140, 106);
+    color: rgb(209, 237, 225);
+}
+
+li.liMenue button:hover:not(.active) {
+    background-color: rgb(0, 62, 25);
+    color: rgb(209, 237, 225);
+}
+
+ul.chatMessages {
+    list-style-type: none;
+    width: 95%;
+    overflow-y: auto;
+    bottom: 0px;
+    height:100%;
+    min-height:0px;
+    margin-top:10px;
+}
+
+li.chatMessagReciver {
+    margin: 5px;
+    text-align: left;
+}
+
+li.chatMessagSender {
+    margin: 5px;
+    text-align: right;
+}
+
+li.sendChatMessages {
+    margin: 5px;
+}
+
+#divHeadingHeader {
+    text-align: center;
+    font-size: 65px;
+}
+
+#divReadMe {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#divAddChat {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#divAddChat h1{
+    font-size: 30px;
+}
+
+.ChatHeader {
+    
+}
+
+#imageProfilePicChat {
+    text-align: left;
+    width: 60px;
+    height: 60px;
+}
+
+#divChatName {
+    text-align: center;
+   
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.inputAddChat {
+    height: 25px;
+}
+
+.bttnAddChat {
+    height: 25px;
+}
+
+.mainContainer {
+    flex-direction: column;
+    display: flex;
+    height:100%;
+}
+
+.contentContainer {
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+    max-height:80%;
+}
+
+.Menu{
+    width:10%;
+}
+
+.ChatContent {
+    background-color: rgb(2, 140, 106);
+    margin-left: 1%;
+    margin-right: 1%;
+    height:80%;
+    bottom:0px;
+    top:0px;
+    text-align:center;
+}
+
+.Chats {
+    height: 100%;
+    bottom: 0px;
+}
+
+#sendMessageInput {
+    width: 80%;
+}
+
+.recivedMessage {
+    border: 5px solid black;
+    width: 70%;
+    background-color: rgb(0, 62, 25);
+    float: left;
+    margin:3px;
+}
+
+.recivedMessage .messagName {
+    color: red;
+    font-weight: bold;
+}
+
+.recivedMessage .messageDate {
+    text-align: right;
+}
+
+.senderMessage {
+    border: 5px solid black;
+    width: 70%;
+    background-color: rgb(0, 62, 25);
+    float: right;
+    margin: 3px;
+}
+
+.senderMessage .messagName {
+    color: red;
+    font-weight: bold;
+    text-align: right;
+}
+
+.senderMessage .messageContent {
+    text-align: right;
+}
+
+.senderMessage .messageDate {
+    text-align: left;
+}
+
+.messageImage {
+    max-width: 90%;
+    text-align:center;
+}
+
+.ChatFooter {
+    text-align:center;
+}
+
+#bttnEinstellungen {
+    background-image: url(../images/Einstellungen60x60V2.jpg);
+    height: 60px;
+    width: 60px;
+    float: right;
+    margin: 20px;
+    border:0px;
+}
+
+.Header{
+    display:inline;
+}
+
+.inputSettings{
+    height:25px;
+}
+
+#divSettings {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#divSettings h1 {
+    font-size: 30px;
+}
+
+.bttnSettings {
+    height: 25px;
+}
+
+#sendImageInput{
+    display:none;
+}
+
+

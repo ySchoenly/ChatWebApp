@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+    <script src="../javascripts/main.js"></script>
+    <script src="../javascripts/mqttClient.js"></script>
+    <script src="../javascripts/createElemets.js"></script>
+    <script src="../javascripts/utils.js"></script>
+    <title>WebApp</title>
+</head>
+<body>
+    <div class="mainContainer">
+
+
+        <div class="Heading">
+            <div id="divHeadingHeader">
+                ChatWebApp
+                <button onclick="openSettings()" id="bttnEinstellungen"></button>
+            </div>
+        </div>
+
+        <div class="contentContainer">
+            <ul class="Menu" id="ulMenueChats">
+                <li class="liMenue"><button id="bttnAddChat" onclick="createAndFillAddChat()">+</button></li>
+            </ul>
+            <div class="Content" id="divContent">
+                
+            </div>
+        </div>
+
+        <div class="Footer">
+            Text
+        </div>
+
+        </div>
+</body>
+</html>
